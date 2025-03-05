@@ -1,12 +1,12 @@
-# Stocks and Cryptocurrencies Analysis
+# Monte Carlo Area Estimation
 
-This project provides data analysis and visualization for stock and cryptocurrency prices. It includes data processing, trend analysis, and interactive charts.
+This project estimates the area under a curve using the Monte Carlo method. The approach involves generating random points and determining the proportion that falls within the desired area.
 
 ## Features
-- Fetch and process stock and crypto price data
-- Analyze historical trends
-- Generate interactive visualizations
-- Perform statistical analysis
+- Load and process images representing the area under a curve
+- Convert images to numerical arrays
+- Use Monte Carlo simulation to estimate the area
+- Visualize the results and error rates
 
 ## Installation
 1. Clone this repository:
@@ -21,22 +21,12 @@ This project provides data analysis and visualization for stock and cryptocurren
    ```
 
 ## Usage
-Run the Jupyter Notebook:
+Run the Python script to estimate the area:
 ```sh
-jupyter notebook
-```
-
-Or execute the Python script:
-```sh
-python analysis.py
+python montecarlo.py
 ```
 
 ## Requirements
 - Python 3.x
-- Jupyter Notebook (for interactive analysis)
 - Matplotlib for visualization
-- Pandas and NumPy for data processing
-- Requests for fetching data
-
-## License
-This project is licensed under the MIT License.
+- NumPy for numerical computations
